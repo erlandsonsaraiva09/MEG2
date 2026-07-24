@@ -3,7 +3,7 @@
 ############################################################
 
 # The following example illustrates the use of the MEG2
-# distribution functions for alpha = 3 and beta = 0.5.
+# distribution functions for alpha = 4 and beta = 0.88.
 # Specifically, it demonstrates the evaluation of the
 # density, distribution, quantile, and random generation
 # functions, as well as a graphical comparison between
