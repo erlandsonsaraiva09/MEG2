@@ -1,13 +1,8 @@
----
-title: "MEG2"
-output: github_document
----
-
-# MEG2
+########
+# MEG2 #
+########
 
 R functions for estimation and inference under the MEG2 distribution.
-
-**A structured exponential-gamma mixture family with parameter-coupled weights: theory and likelihood-based inference**
 
 This repository contains the R codes developed for the MEG2 model, including functions for evaluating the distribution, fitting the model to data, and carrying out likelihood-based and Bayesian inference.
 
@@ -17,7 +12,7 @@ The MEG2 model is a structured exponential-gamma mixture distribution with param
 
 ## Distribution functions
 
-The file **`RC01_MEG2_FUNCTIONS`** contains the main functions associated with the MEG2 distribution. In particular, it provides functions for:
+The file "RC01_MEG2_FUNCTIONS" contains the main functions associated with the MEG2 distribution. In particular, it provides functions for:
 
 - evaluating the probability density function (PDF);
 - evaluating the cumulative distribution function (CDF);
@@ -34,13 +29,17 @@ The repository also contains R codes for fitting the MEG2 model to a data set an
 
 The codes are associated with the manuscript:
 
-> **A structured exponential-gamma mixture family with parameter-coupled weights: theory and likelihood-based inference**
+"A structured exponential-gamma mixture family with parameter-coupled weights: theory and likelihood-based inference"
 
 ## Citation
 
-If you use these codes in your research, please cite the corresponding manuscript.
+If you use these codes in your research, please cite:
 
-## Author
+Saraiva, E. F., Silva, N. H., & Suzuki, A. K. 
+A structured exponential-gamma mixture family with parameter-coupled weights: theory and likelihood-based inference.
 
-Erlandson Ferreira Saraiva  
-Universidade Federal de Mato Grosso do Sul (UFMS)
+## Authors
+
+Erlandson Ferreira Saraiva (INMA/UFMS)
+Natan Hilario da Silva (ICMC/USP and DEs/UFSCar)  
+Adriano Kamimura Suzuki (ICMC/USP) 
