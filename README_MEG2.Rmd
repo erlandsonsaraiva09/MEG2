@@ -1,0 +1,46 @@
+---
+title: "MEG2"
+output: github_document
+---
+
+# MEG2
+
+R functions for estimation and inference under the MEG2 distribution.
+
+**A structured exponential-gamma mixture family with parameter-coupled weights: theory and likelihood-based inference**
+
+This repository contains the R codes developed for the MEG2 model, including functions for evaluating the distribution, fitting the model to data, and carrying out likelihood-based and Bayesian inference.
+
+## MEG2 distribution
+
+The MEG2 model is a structured exponential-gamma mixture distribution with parameter-coupled mixing weights. It provides a flexible family for modelling positive-valued data.
+
+## Distribution functions
+
+The file **`RC01_MEG2_FUNCTIONS`** contains the main functions associated with the MEG2 distribution. In particular, it provides functions for:
+
+- evaluating the probability density function (PDF);
+- evaluating the cumulative distribution function (CDF);
+- calculating quantiles of the MEG2 distribution;
+- generating random observations from the MEG2 distribution.
+
+These functions provide the basic computational tools used by the remaining codes in the repository.
+
+## Model fitting and inference
+
+The repository also contains R codes for fitting the MEG2 model to a data set and for carrying out the inferential procedures considered in the manuscript, including penalized maximum likelihood estimation and the associated computational methods.
+
+## Manuscript
+
+The codes are associated with the manuscript:
+
+> **A structured exponential-gamma mixture family with parameter-coupled weights: theory and likelihood-based inference**
+
+## Citation
+
+If you use these codes in your research, please cite the corresponding manuscript.
+
+## Author
+
+Erlandson Ferreira Saraiva  
+Universidade Federal de Mato Grosso do Sul (UFMS)
