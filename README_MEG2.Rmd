@@ -4,7 +4,7 @@
 
 R functions for estimation and inference under the MEG2 distribution.
 
-This repository contains the R codes developed for the MEG2 model, including functions for evaluating the distribution, fitting the model to data, and carrying out likelihood-based and Bayesian inference.
+This repository contains the R codes developed for the MEG2 model, including functions for evaluating the distribution, fitting the model to data, and carrying out likelihood-based inference.
 
 ## MEG2 distribution
 
@@ -12,7 +12,7 @@ The MEG2 model is a structured exponential-gamma mixture distribution with param
 
 ## Distribution functions
 
-The file "RC01_MEG2_FUNCTIONS" contains the main functions associated with the MEG2 distribution. In particular, it provides functions for:
+The file "RC01_MEG2_Functions.R" contains the main functions associated with the MEG2 distribution. In particular, it provides functions for:
 
 - evaluating the probability density function (PDF);
 - evaluating the cumulative distribution function (CDF);
@@ -23,7 +23,14 @@ These functions provide the basic computational tools used by the remaining code
 
 ## Model fitting and inference
 
-The repository also contains R codes for fitting the MEG2 model to a data set and for carrying out the inferential procedures considered in the manuscript, including penalized maximum likelihood estimation and the associated computational methods.
+The file "RC02_MEG2_Fit_Functions_C.R" contains the main functions for fitting the MEG2 model to a data set and performing the associated inferential and goodness-of-fit procedures. In particular, it provides functions for:
+
+- Newton--Raphson (NR) estimation;
+- Newton--GEM (NGEM) estimation;
+- Wald confidence intervals;
+- likelihood-ratio (LR) confidence intervals;
+- goodness-of-fit (GOF) measures;
+- graphical representations of the fitted model.
 
 ## Manuscript
 
